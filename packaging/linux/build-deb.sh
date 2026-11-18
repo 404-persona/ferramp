@@ -53,7 +53,7 @@ for f in LICENSE-MIT LICENSE-APACHE NOTICE; do
 done
 cat > "$pkgdir/usr/share/doc/ferramp/copyright" <<EOF
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Source: https://github.com/SpankulatorX/ferramp
+Source: https://github.com/404-persona/ferramp
 
 Files: *
 Copyright: Ferramp contributors
@@ -70,9 +70,9 @@ Version: $version
 Section: sound
 Priority: optional
 Architecture: $debarch
-Maintainer: Jonas Millard <126339103+SpankulatorX@users.noreply.github.com>
+Maintainer: Jonas Millard <126339103+404-persona@users.noreply.github.com>
 Installed-Size: $installed_size
-Homepage: https://github.com/SpankulatorX/ferramp
+Homepage: https://github.com/404-persona/ferramp
 Depends: libasound2 | libasound2t64, libc6 (>= 2.35)
 Recommends: wine
 Description: Classic skinnable audio player

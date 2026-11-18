@@ -45,7 +45,7 @@ https://github.com/user-attachments/assets/5c2dde87-203a-4e72-954d-ee841e5f800a
 ## Download
 
 Ready-made builds for Windows, macOS (universal) and Linux (x86_64 and
-ARM64) are on the [releases page](https://github.com/SpankulatorX/ferramp/releases/latest).
+ARM64) are on the [releases page](https://github.com/404-persona/ferramp/releases/latest).
 None of them is code-signed: on Windows SmartScreen may ask you to
 confirm, and on macOS you right-click the app and choose Open the first
 time.
@@ -54,7 +54,7 @@ One-liner for Linux (picks the .deb, .rpm or tarball for you and checks
 it against the release checksums):
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/SpankulatorX/ferramp/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/404-persona/ferramp/main/install.sh | sh
 ```
 
 | Distro | Install |

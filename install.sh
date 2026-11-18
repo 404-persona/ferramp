@@ -1,7 +1,7 @@
 #!/bin/sh
 # Ferramp one-liner installer.
 #
-#   curl -fsSL https://raw.githubusercontent.com/SpankulatorX/ferramp/main/install.sh | sh
+#   curl -fsSL https://raw.githubusercontent.com/404-persona/ferramp/main/install.sh | sh
 #
 # Picks the right artifact for your system:
 #   Debian/Ubuntu -> .deb    Fedora/RHEL/openSUSE -> .rpm
@@ -13,7 +13,7 @@
 # install dir, default ~/.local).
 set -eu
 
-REPO=SpankulatorX/ferramp
+REPO=404-persona/ferramp
 TAG=${TAG:-latest}
 PREFIX=${PREFIX:-"$HOME/.local"}
 

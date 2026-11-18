@@ -44,7 +44,7 @@ One-liner (picks the right Linux package for you and checks it against
 SHA256SUMS.txt):
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/SpankulatorX/ferramp/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/404-persona/ferramp/main/install.sh | sh
 ```
 
 On Arch Linux, `makepkg -si` in `packaging/aur/ferramp-bin` of the

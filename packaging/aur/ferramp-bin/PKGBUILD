@@ -1,10 +1,10 @@
-# Maintainer: Ferramp contributors <https://github.com/SpankulatorX/ferramp>
+# Maintainer: Ferramp contributors <https://github.com/404-persona/ferramp>
 pkgname=ferramp-bin
 pkgver=0.2.0
 pkgrel=1
 pkgdesc='Classic skinnable audio player (prebuilt binary)'
 arch=('x86_64' 'aarch64')
-url='https://github.com/SpankulatorX/ferramp'
+url='https://github.com/404-persona/ferramp'
 license=('MIT OR Apache-2.0')
 depends=('alsa-lib' 'gcc-libs' 'glibc' 'hicolor-icon-theme')
 optdepends=('wine: classic Winamp plug-ins')

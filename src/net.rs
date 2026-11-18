@@ -12,7 +12,7 @@ fn agent() -> ureq::Agent {
 const USER_AGENT: &str = concat!(
     "Ferramp/",
     env!("CARGO_PKG_VERSION"),
-    " (+https://github.com/SpankulatorX/ferramp)"
+    " (+https://github.com/404-persona/ferramp)"
 );
 
 /// GETs `url` and returns at most `max` bytes of the body.
